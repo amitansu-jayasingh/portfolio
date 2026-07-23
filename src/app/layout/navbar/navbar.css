@@ -1,0 +1,73 @@
+.navbar {
+  height: 80px;
+  padding: 0 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #111111;
+  /* border-bottom: 1px solid #292929; */
+}
+
+/* Logo */
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #ff3344;
+}
+
+/* Navigation */
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 20px;
+
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ff3344;
+}
+
+/* Let's Talk button */
+
+.talk-btn {
+  padding: 10px 22px;
+
+  background: transparent;
+  color: #ff4438;
+
+  border: 1px solid #ff4438;
+  border-radius: 6px;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+
+.talk-btn:hover {
+  background: rgba(255, 68, 56, 0.08);
+
+  box-shadow:
+    0 0 10px rgba(255, 68, 56, 0.5),
+    0 0 20px rgba(255, 68, 56, 0.2);
+
+  transform: translateY(-2px);
+}
