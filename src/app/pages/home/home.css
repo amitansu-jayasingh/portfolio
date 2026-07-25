@@ -11,7 +11,7 @@
   justify-content: space-between;
   gap: 70px;
 
-  background: #111111;
+  background: #0b0b0b;
   color: #ffffff;
 }
 
@@ -74,6 +74,110 @@
 
   font-size: 18px;
   line-height: 1.9;
+}
+
+/* ==========================
+   TECH STACK
+========================== */
+
+.tech-stack{
+    padding:100px 10%;
+    background:#0b0b0b;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    color:#fff;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    color:#bfbfbf;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.tech-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.tech-card{
+
+    background:#151515;
+
+    border:1px solid #2a2a2a;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.35s;
+
+    cursor:pointer;
+}
+
+.tech-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#ff3b3b;
+
+    box-shadow:0 0 25px rgba(255,59,59,.25);
+}
+
+.tech-icon{
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#1f1f1f;
+
+    color:#ff3b3b;
+
+    font-weight:bold;
+
+    font-size:22px;
+
+    margin-bottom:25px;
+
+    transition:.35s;
+}
+
+.tech-card:hover .tech-icon{
+
+    background:#ff3b3b;
+
+    color:white;
+
+    transform:rotate(360deg);
+}
+
+.tech-card h3{
+
+    color:white;
+
+    margin-bottom:15px;
+}
+
+.tech-card p{
+
+    color:#bdbdbd;
+
+    line-height:1.8;
 }
 
 
@@ -736,7 +840,7 @@
 
   gap: 28px;
 
-  background: #0e1320;
+  background: #0b0b0b;
 }
 
 .stat-card {
@@ -749,9 +853,9 @@
   align-items: center;
   justify-content: center;
 
-  background: #131b2b;
+  background: #151515;
 
-  border: 1px solid #202c40;
+  border: 1px solid #1a1a1a;
   border-radius: 16px;
 
   text-align: center;
